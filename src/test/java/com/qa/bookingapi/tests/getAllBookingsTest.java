@@ -21,7 +21,7 @@ public class getAllBookingsTest extends BaseTest{
 		Response response = restClient.get(BASE_URL, URL_ENDPOINT, AuthTypes.NO_AUTH, ContentType.ANY);
 		Assert.assertEquals(response.statusCode(), 200);
 		createBooking[] book = jsonUtils.deserializeResponse(response, createBooking[].class);
-		System.out.println(Arrays.toString(book));
+	//	System.out.println(Arrays.toString(book));
 		System.out.println(book.length);
 		
 		for(createBooking b : book) {
