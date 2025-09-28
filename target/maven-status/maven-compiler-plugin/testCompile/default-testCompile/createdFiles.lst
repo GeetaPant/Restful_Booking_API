@@ -1,0 +1,5 @@
+com\qa\bookingapi\base\BaseTest.class
+com\qa\bookingapi\tests\createBookingTest.class
+com\qa\bookingapi\tests\DeleteCreatedBookingTest.class
+com\qa\bookingapi\tests\getAllBookingsTest.class
+com\qa\bookingapi\tests\UpdateBookingTest.class

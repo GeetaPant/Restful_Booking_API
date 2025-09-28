@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-28T11:38:44 IST" name="Restful Booking API QA Regressiion Suite" finished-at="2025-09-28T11:39:01 IST" duration-ms="17212">
+    <groups>
+    </groups>
+    <test started-at="2025-09-28T11:38:44 IST" name="Create Booking Test" finished-at="2025-09-28T11:38:49 IST" duration-ms="4844">
+      <class name="com.qa.bookingapi.tests.createBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.bookingapi.tests.createBookingTest@3bd323e9]" started-at="2025-09-28T11:38:44 IST" name="setup" finished-at="2025-09-28T11:38:45 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewBookingTest()[pri:0, instance:com.qa.bookingapi.tests.createBookingTest@3bd323e9]" started-at="2025-09-28T11:38:45 IST" name="createNewBookingTest" finished-at="2025-09-28T11:38:49 IST" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookingTest -->
+      </class> <!-- com.qa.bookingapi.tests.createBookingTest -->
+    </test> <!-- Create Booking Test -->
+    <test started-at="2025-09-28T11:38:50 IST" name="GET Bookings Test" finished-at="2025-09-28T11:38:51 IST" duration-ms="1755">
+      <class name="com.qa.bookingapi.tests.getAllBookingsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.bookingapi.tests.getAllBookingsTest@38089a5a]" started-at="2025-09-28T11:38:50 IST" name="setup" finished-at="2025-09-28T11:38:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllBookingsIDTest()[pri:0, instance:com.qa.bookingapi.tests.getAllBookingsTest@38089a5a]" started-at="2025-09-28T11:38:50 IST" name="getAllBookingsIDTest" finished-at="2025-09-28T11:38:51 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookingsIDTest -->
+      </class> <!-- com.qa.bookingapi.tests.getAllBookingsTest -->
+    </test> <!-- GET Bookings Test -->
+    <test started-at="2025-09-28T11:38:52 IST" name="Update ParitalBooking Test" finished-at="2025-09-28T11:38:56 IST" duration-ms="4269">
+      <class name="com.qa.bookingapi.tests.UpdateBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.bookingapi.tests.UpdateBookingTest@4f0100a7]" started-at="2025-09-28T11:38:52 IST" name="setup" finished-at="2025-09-28T11:38:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewBooking()[pri:0, instance:com.qa.bookingapi.tests.UpdateBookingTest@4f0100a7]" started-at="2025-09-28T11:38:52 IST" name="createNewBooking" finished-at="2025-09-28T11:38:56 IST" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBooking -->
+      </class> <!-- com.qa.bookingapi.tests.UpdateBookingTest -->
+    </test> <!-- Update ParitalBooking Test -->
+    <test started-at="2025-09-28T11:38:56 IST" name="Delete Booking Test" finished-at="2025-09-28T11:39:01 IST" duration-ms="5527">
+      <class name="com.qa.bookingapi.tests.DeleteCreatedBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.bookingapi.tests.DeleteCreatedBookingTest@5bf0fe62]" started-at="2025-09-28T11:38:56 IST" name="setup" finished-at="2025-09-28T11:38:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewBooking()[pri:0, instance:com.qa.bookingapi.tests.DeleteCreatedBookingTest@5bf0fe62]" started-at="2025-09-28T11:38:56 IST" name="createNewBooking" finished-at="2025-09-28T11:39:01 IST" duration-ms="5461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBooking -->
+      </class> <!-- com.qa.bookingapi.tests.DeleteCreatedBookingTest -->
+    </test> <!-- Delete Booking Test -->
+  </suite> <!-- Restful Booking API QA Regressiion Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "Restful Booking API QA Regressiion Suite" verbose="3">
+<listeners>
+<listener class-name="com.qa.bookingapi.listeners.ExtentReportListener" />
+</listeners>
+
+<test name="Create Booking Test">
+		<classes>
+			<class name="com.qa.bookingapi.tests.createBookingTest" />
+		</classes>
+	</test>
+	<test name="GET Bookings Test">
+		<classes>
+			<class name="com.qa.bookingapi.tests.getAllBookingsTest" />
+		</classes>
+	</test>
+	<test name="Update ParitalBooking Test">
+		<classes>
+			<class name="com.qa.bookingapi.tests.UpdateBookingTest" />
+		</classes>
+	</test>
+		<test name="Delete Booking Test">
+		<classes>
+			<class name="com.qa.bookingapi.tests.DeleteCreatedBookingTest" />
+		</classes>
+	</test>
+</suite>
+

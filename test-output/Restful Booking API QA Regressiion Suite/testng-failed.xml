@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Restful Booking API QA Regressiion Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.bookingapi.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Delete Booking Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.bookingapi.tests.DeleteCreatedBookingTest">
+        <methods>
+          <include name="createNewBooking"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.bookingapi.tests.DeleteCreatedBookingTest -->
+    </classes>
+  </test> <!-- Delete Booking Test(failed) -->
+</suite> <!-- Failed suite [Restful Booking API QA Regressiion Suite] -->
